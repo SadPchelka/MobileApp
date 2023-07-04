@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter:wght@700&display=swap');
+
+.header {
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    color: white;
+    text-align: left;   
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    padding-left: 68px;
+}
+
+.color {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.colorWborder {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 20px;
+    border-color: white;
+}
+
+.text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.containerbutn {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-left: 68px;
+}
+
+.primary {
+    background-color:#5CADBF ;
+    width: 246px;
+    height: 48px;
+    border-radius: 22px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.secondary {
+    border-color: #5CADBF;
+    background-color:#212123;
+    width: 246px;
+    height: 48px;
+    border-radius: 22px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+button.primary:active {
+    background: #DD7AAA;
+}
+
+button.secondary:active {
+    background: #006C84;
+}
+
+.panel {
+    display: flex;
+    gap: 22px;  
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    border-color: white;
+    background: violet;
+    width: 300px;
+    height: 62px;
+    margin-left: 68px;
+}
+.text {
+    font-size: 9px;
+    text-align: center;
+    padding-left: 3px;
+}
+.text_mask {
+    font-size: 9px;
+    text-align: center;
+    width: 38px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    height: 15px;
+   padding-top: 3px;
+}
+.text_dream {
+    font-size: 9px;
+    text-align: center;
+    padding-top: 3px;
+    width: 73px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    height: 15px; 
+}
+.text_kaka {
+    font-size: 9px;
+    text-align: center;
+    padding-top: 3px;
+    width: 52px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    height: 15px;
+}
+.text_main {
+    font-size: 9px;
+    text-align: center;
+    padding-top: 3px;
+    width: 48px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    height: 15px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40px;
+    height: 15px;
+    align-items: center;
+    column-gap: 26px;
+}
+.img_mask {
+    width: 37px;
+    height: 37px;
+}
